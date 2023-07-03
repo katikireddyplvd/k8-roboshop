@@ -10,7 +10,7 @@ spec:
   containers:
   - name: mongodb
     imagePullPolicy: Always
-    image: pulinenera/mongodb:v1
+    image: pulinenera/mongodb:k8
     ports:
       - containerPort: 27017
 ---
